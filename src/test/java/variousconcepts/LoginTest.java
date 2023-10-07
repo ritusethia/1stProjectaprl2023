@@ -45,6 +45,7 @@ public class LoginTest {
 	public static void closebrowser() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.close();
+		driver.quit();
 
 	}
 
